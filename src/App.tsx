@@ -5,7 +5,7 @@ import Cub3D from "./Cub3d.png";
 import Minesweeper from "./Minesweeper.png";
 import SoLong from "./So_Long.png";
 import './App.css';
-import samplePDF1 from "./CV.pdf";
+import PDF from "./CV_Gabriel_Asselin.pdf";
 import { Email, AddCircle, Computer, Terminal, Code, GitHub } from "@mui/icons-material";
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
 						</div>
 					</div>
 					<div className='w-[200px] bg-slate-700 rounded-lg ml-4 mt-4'>
-						<a href={samplePDF1} target="_blank" rel="noreferrer">
+						<a href={PDF} target="_blank" rel="noreferrer">
 							<p className='w-full text-center text-white text-lg font-bold'>DOWNLOAD MY CV</p>
             </a>
 					</div>
