@@ -83,7 +83,7 @@ function App() {
 
 					<p className='text-white text-3xl mt-6'>Projects</p>
 					<div className='grid grid-cols-2 grid-rows-2 h-[460px] w-fit'>
-						<a href="https://github.com/gasselin42/so_long" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
+						<a href="https://github.com/Kampouse/trans-pong" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverTrans &&
 								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverTrans(true)} >
 									<p className='text-lg text-white font-bold'>ft_transcendence</p>
@@ -91,7 +91,7 @@ function App() {
 							}
 							<img src={Transcendence} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverTrans ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverTrans(true)} onMouseLeave={() => setHoverTrans(false)}/>
 						</a>
-						<a href="https://github.com/gasselin42/so_long" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
+						<a href="https://github.com/tetedecactus/cub3d/tree/gasselin" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverCub &&
 								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverCub(true)} >
 									<p className='text-lg text-white font-bold'>Cub3D</p>
@@ -99,7 +99,7 @@ function App() {
 							}
 							<img src={Cub3D} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverCub ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverCub(true)} onMouseLeave={() => setHoverCub(false)}/>
 						</a>
-						<a href="https://github.com/gasselin42/so_long" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
+						<a href="https://github.com/gasselin42/Minesweeper" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverSweeper &&
 								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverSweeper(true)} >
 									<p className='text-lg text-white font-bold'>Minesweeper</p>
