@@ -85,35 +85,35 @@ function App() {
 					<div className='grid grid-cols-2 grid-rows-2 h-[460px] w-fit'>
 						<a href="https://github.com/Kampouse/trans-pong" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverTrans &&
-								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverTrans(true)} >
+								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverTrans(true)} onClick={() => setHoverTrans(false)} >
 									<p className='text-lg text-white font-bold'>ft_transcendence</p>
 								</div>
 							}
-							<img src={Transcendence} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverTrans ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverTrans(true)} onMouseLeave={() => setHoverTrans(false)}/>
+							<img src={Transcendence} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverTrans ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverTrans(true)} onMouseLeave={() => setHoverTrans(false)} onClick={() => setHoverTrans(false)}/>
 						</a>
 						<a href="https://github.com/tetedecactus/cub3d/tree/gasselin" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverCub &&
-								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverCub(true)} >
+								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverCub(true)} onClick={() => setHoverCub(false)} >
 									<p className='text-lg text-white font-bold'>Cub3D</p>
 								</div>
 							}
-							<img src={Cub3D} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverCub ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverCub(true)} onMouseLeave={() => setHoverCub(false)}/>
+							<img src={Cub3D} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverCub ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverCub(true)} onMouseLeave={() => setHoverCub(false)} onClick={() => setHoverCub(false)}/>
 						</a>
 						<a href="https://github.com/gasselin42/Minesweeper" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverSweeper &&
-								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverSweeper(true)} >
+								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverSweeper(true)} onClick={() => setHoverSweeper(false)} >
 									<p className='text-lg text-white font-bold'>Minesweeper</p>
 								</div>
 							}
-							<img src={Minesweeper} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverSweeper ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverSweeper(true)} onMouseLeave={() => setHoverSweeper(false)}/>
+							<img src={Minesweeper} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverSweeper ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverSweeper(true)} onMouseLeave={() => setHoverSweeper(false)} onClick={() => setHoverSweeper(false)}/>
 						</a>
 						<a href="https://github.com/gasselin42/so_long" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverSolong &&
-								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverSolong(true)} >
+								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverSolong(true)} onClick={() => setHoverSolong(false)} >
 									<p className='text-lg text-white font-bold'>So_Long</p>
 								</div>
 							}
-							<img src={SoLong} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverSolong ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverSolong(true)} onMouseLeave={() => setHoverSolong(false)}/>
+							<img src={SoLong} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverSolong ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverSolong(true)} onMouseLeave={() => setHoverSolong(false)} onClick={() => setHoverSolong(false)}/>
 						</a>
 					</div>
 				</div>
