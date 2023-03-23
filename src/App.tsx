@@ -14,6 +14,8 @@ function App() {
 	const [hoverSweeper, setHoverSweeper] = useState(false);
 	const [hoverSolong, setHoverSolong] = useState(false);
 
+	const [colorState, setColorState] = useState('#fff');
+
   return (
     <div className="w-screen h-screen overflow-y-scroll scrollbar-hide bg-[#030f24]">
 
@@ -61,7 +63,7 @@ function App() {
 					<div className='flex flex-col'>
 						<div className='pl-2 flex'>
 							<AddCircle sx={{color: 'white', height: 20, width: 20, mt: "4px"}} />
-							<p className='text-white text-lg pl-2'>C++ / C</p>
+							<p className='text-white text-lg pl-2'>C++ / C# / C</p>
 						</div>
 						<div className='pl-2 flex'>
 							<Computer sx={{color: 'white', height: 20, width: 20, mt: "4px"}} />
@@ -73,7 +75,7 @@ function App() {
 						</div>
 						<div className='pl-2 flex'>
 							<Code sx={{color: 'white', height: 20, width: 20, mt: "4px"}} />
-							<p className='text-white text-lg pl-2'>React / HTML / JavaScript / CSS / Tailwind CSS</p>
+							<p className='text-white text-lg pl-2'>React / Typescript / HTML / JavaScript / CSS / Tailwind CSS</p>
 						</div>
 						<div className='pl-2 flex'>
 							<GitHub sx={{color: 'white', height: 20, width: 20, mt: "4px"}} />
