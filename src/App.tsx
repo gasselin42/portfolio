@@ -93,7 +93,7 @@ function App() {
 							}
 							<img src={Transcendence} alt="" width="200" height="200" className={`rounded-lg border-[6px] border-zinc-500 m-[15px] relative ${hoverTrans ? 'brightness-50 cursor-pointer' : ''}`} onMouseEnter={() => setHoverTrans(true)} onMouseLeave={() => setHoverTrans(false)} onClick={() => setHoverTrans(false)}/>
 						</a>
-						<a href="https://github.com/tetedecactus/cub3d/tree/gasselin" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
+						<a href="https://github.com/gasselin42/cub3d.git" target="_blank" rel="noreferrer" className='flex items-center justify-center'>
 							{ hoverCub &&
 								<div className='absolute mx-auto z-50 hover:cursor-pointer' onMouseEnter={() => setHoverCub(true)} onClick={() => setHoverCub(false)} >
 									<p className='text-lg text-white font-bold'>Cub3D</p>
