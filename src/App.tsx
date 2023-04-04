@@ -14,8 +14,6 @@ function App() {
 	const [hoverSweeper, setHoverSweeper] = useState(false);
 	const [hoverSolong, setHoverSolong] = useState(false);
 
-	const [colorState, setColorState] = useState('#fff');
-
   return (
     <div className="w-screen h-screen overflow-y-scroll scrollbar-hide bg-[#030f24]">
 
@@ -42,7 +40,7 @@ function App() {
 					<div className='w-[200px] bg-slate-700 rounded-lg ml-4 mt-4'>
 						<a href={PDF} target="_blank" rel="noreferrer">
 							<p className='w-full text-center text-white text-lg font-bold'>DOWNLOAD MY CV</p>
-            </a>
+            			</a>
 					</div>
 					<div className='flex'>
 						<div className='h-[46px] w-[46px] bg-slate-700 rounded-lg ml-4 mt-2'>
@@ -55,6 +53,9 @@ function App() {
 								<GitHub sx={{height: 30, width: 30, color: 'white', ml: "8px", mt: "8px"}} />
 							</a>
 						</div>
+					</div>
+					<div className='flex flex-col pl-4 pt-4'>
+						<p className='text-white text-lg font-bold'>* New portfolio in progress</p>
 					</div>
 				</div>
 
