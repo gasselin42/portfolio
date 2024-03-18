@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { LinkedIn, GitHub } from '@mui/icons-material';
+import { LinkedIn, GitHub, Mail } from '@mui/icons-material';
 import './App.css';
 
 import AOS from "aos";
@@ -26,7 +26,7 @@ function App() {
 					<p className="pl-24 text-6xl font-bold text-[#52b4f9]">Web Dev</p>
 				</div>
 				<div className="w-[40%] h-fit my-auto col-span-1">
-					<p className="text-6xl text-white">RIGHT DIV</p>
+					<p className="text-6xl text-white">WORK IN PROGRESS</p>
 				</div>
 			</div>
 			<div className="w-full min-h-fit flex grid-cols-2 grid-rows-1 bg-[#303030]">
@@ -165,26 +165,6 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="w-full h-fit pt-12">
-				{/* <p className="pb-8 text-3xl font-medium text-white text-center">Formulaire de contact, CV, LinkedIn et Github</p> */}
-				<p className="pl-24 mb-4 text-5xl font-medium text-[#52b4f9]">CONTACT</p>
-				<form id="contact-form" method="POST" action="sendmail.php" className="w-full">
-					<div className="mb-3 w-full px-24">
-						<label htmlFor="contact-form-name" className="text-white texl-lg">Nom:</label>
-						<input id="contact-form-name" className="block w-full" type="text" name="name" required />
-					</div>
-					<div className="mb-3 w-full px-24">
-						<label htmlFor="contact-form-email" className="text-white texl-lg">Email:</label>
-						<input id="contact-form-email" className="block w-full" type="email" name="email" required />
-					</div>
-					<div className="mb-3 w-full px-24">
-						<label htmlFor="contact-form-message" className="text-white texl-lg">Message:</label>
-						<textarea id="contact-form-message" className="block w-full h-32" name="message" required></textarea>
-					</div>
-					<button type="submit" name="submit" id="submit" className="text-white text-lg px-4 py-2 ml-24 mb-3 bg-[#52b4f9]">Envoyer</button>
-				</form>
-			</div>
-
 			<div className="w-fit h-fit py-6 flex mx-auto my-auto">
 				<a href="CV_Gabriel_Asselin.pdf" target="_blank" rel="noreferrer">
 					<button className="h-[50px] text-white bg-[#52b4f9] rounded-2xl font-bold px-4 mx-1 ">TÉLÉCHARGER MON CV</button>
@@ -194,6 +174,9 @@ function App() {
 				</a>
 				<a href="https://github.com/gasselin42/" target="_blank" rel="noreferrer">
 					<GitHub sx={{height: 50, width: 50, color: 'white', mx: "4px"}} />
+				</a>
+				<a href="mailto:gabhabs@yahoo.com" target="_blank" rel="noreferrer">
+					<Mail sx={{height: 50, width: 50, color: 'white', mx: "4px"}} />
 				</a>
 			</div>
 		</div>
