@@ -93,7 +93,7 @@ function App() {
 							</div>
 							<div className="absolute inset-0 rounded-md bg-[#3e7ca8] h-full w-full text-center text-slate-200 [transform:rotateY(-180deg)] [backface-visibility:hidden]">
 								<a href="https://github.com/Kampouse/trans-pong" target="_blank" rel="noreferrer">
-									<p className="text-4xl font-medium pt-6">ft_transcendence</p>
+									<p className="text-4xl font-medium pt-6 hover:text-[#52b4f9]">ft_transcendence</p>
 								</a>
 								<p className="text-2xl font-normal pt-4">Jeu en ligne de pong multijoueur</p>
 								<p className="text-xl font-normal pt-2 pl-2"><b>&#10003;</b> Dev Frontend</p>
@@ -113,7 +113,7 @@ function App() {
 							</div>
 							<div className="absolute inset-0 rounded-md bg-[#3e7ca8] h-full w-full text-center text-slate-200 [transform:rotateY(-180deg)] [backface-visibility:hidden]">
 								<a href="https://github.com/tastycool/PureSlime" target="_blank" rel="noreferrer">
-									<p className="text-4xl font-medium pt-6">PureSlime</p>
+									<p className="text-4xl font-medium pt-6 hover:text-[#52b4f9]">PureSlime</p>
 								</a>
 								<p className="text-2xl font-normal pt-4">Jeu de puzzle / plateformer</p>
 								<p className="text-xl font-normal pt-2"><b>&#10003;</b> Dev Unity</p>
@@ -150,7 +150,7 @@ function App() {
 							</div>
 							<div className="absolute inset-0 rounded-md bg-[#3e7ca8] h-full w-full text-center text-slate-200 [transform:rotateY(-180deg)] [backface-visibility:hidden]">
 								<a href="https://github.com/gasselin42/Minesweeper" target="_blank" rel="noreferrer">
-									<p className="text-4xl font-medium pt-6">Minesweeper</p>
+									<p className="text-4xl font-medium pt-6 hover:text-[#52b4f9]">Minesweeper</p>
 								</a>
 								<p className="text-2xl font-normal pt-4">Reproduction du célèbre Démineur</p>
 								<p className="text-xl font-normal pt-2">Projet d'un jour en solo</p>
@@ -167,7 +167,7 @@ function App() {
 							</div>
 							<div className="absolute inset-0 rounded-md bg-[#3e7ca8] h-full w-full text-center text-slate-200 [transform:rotateY(-180deg)] [backface-visibility:hidden]">
 								<a href="https://github.com/gasselin42/so_long" target="_blank" rel="noreferrer">
-									<p className="text-4xl font-medium pt-6">So_Long</p>
+									<p className="text-4xl font-medium pt-6 hover:text-[#52b4f9]">So_Long</p>
 								</a>
 								<p className="text-2xl font-normal pt-4">Simple jeu 2D</p>
 								<p className="text-xl font-normal pt-2">Projet en solo</p>
