@@ -69,11 +69,10 @@ function App() {
 			<div className="w-full min-h-fit flex grid-cols-2 grid-rows-1 bg-[#000000]">
 				<div className="my-8 mx-8 col-span-1 w-[40%] h-96">
 					<Carousel>
-						<img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
-						<img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-						<img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-						<img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-						<img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+						<img src="ChibiAdventure1.png" alt="" />
+						<img src="ChibiAdventure2.png" alt="" />
+						<img src="ChibiAdventure3.png" alt="" />
+						<img src="ChibiAdventure4.png" alt="" />
 					</Carousel>
 				</div>
 				<div className="w-[60%] col-span-1">
